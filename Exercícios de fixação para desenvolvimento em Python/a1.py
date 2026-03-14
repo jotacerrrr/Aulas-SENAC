@@ -11,7 +11,7 @@ print(f"Você tem {idade} anos de idade")
 #3. Leia o nome e a cidade da pessoa e imprima: "{nome} mora em {cidade}."
 
 cidade = str(input(f"E onde você mora {nome}? "))
-print(f"Você mora em {cidade}.")
+print(f"{nome} mora em {cidade}")
 
 #4. Leia um número e imprima o dobro dele.
 
@@ -51,13 +51,13 @@ print(f"O valor R com 10% de desconto vai ficar R${desc}.")
 
 cir = float(input("Insira o raio de um círculo. "))
 pi = 3.14
-raio_cir = 3.14 * (cir**2)
+raio_cir = pi * (cir**2)
 print(f"A área desse círculo é {raio_cir}")
 
 #11. Leia a distância (km) e o tempo (h), calcule a velocidade média.
 km = float(input("Quantos km você andou: "))
 tempo = float(input("Por quanto tempo (h): "))
-mat = (km+tempo) / 2
+mat = km/tempo
 print(f"A velocidade média foi {mat}")
 
 #12. Leia 3 notas (float) e imprima a média com duas casas decimais.
@@ -65,14 +65,14 @@ nota1 = float(input("Qual sua primeira nota?: "))
 nota2 = float(input("Segunda nota: "))
 nota3 = float(input("Terceira nota: "))
 media_notas = (nota1+nota2+nota3)/3
-print(f"Sua média é: {media_notas}.")
+print(f"Sua média é: {media_notas:.2f}.")
 
 #13. Leia o salário (float) e um percentual de aumento (float) e calcule o novo salário.
 sal = float(input("Qual seu salário: "))
 aument = float(input("Vai receber um aumento de quantos %? "))
 new_sal = sal*(aument/100)
-newnew_sal = sal+new_sal
-print(f"Você irá receber {newnew_sal}")
+salario_final = sal+new_sal
+print(f"Você irá receber {salario_final}")
 
 #14. Leia uma quantidade de minutos (int) e converta para horas e minutos (ex.: 130 -> 2h10)
 minutos = int(input("Insira uma certa quantidade de minutos: "))
@@ -98,7 +98,7 @@ print(f"{floatnum:.2f}")
 
 #18. Leia um nome e uma nota (float), com uma casa decimal, e imprima:
 floatnota = float(input(f"Insira sua nota {nome}: "))
-print(f"Aluno {nome} ficou com nota {floatnota} ")
+print(f"Aluno {nome} ficou com nota {floatnota:.1f}")
 
 #19. Leia o ano de nascimento (int) e imprima a idade estimada. (considere ano atual = 2026).
 ano = int(input("Em que ano você nasceu? "))
