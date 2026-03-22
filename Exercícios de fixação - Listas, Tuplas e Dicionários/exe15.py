@@ -1,7 +1,7 @@
 # [TUPLE] Dias da semana com tuplas
 # Tarefa: Crie uma tupla com os nomes dos sete dias da semana. Leia um número de 1 a 7 e exiba o dia correspondente.
 
-dias = ("Domingo", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo")
+dias = ("Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo")
 
 indice = int(input("Digite um número de 1 a 7: "))
 
