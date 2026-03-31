@@ -1,0 +1,2 @@
+#4. Solicite ao usuário que informe um número e 
+#depois exiba se é par ou ímpar.

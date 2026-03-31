@@ -1,0 +1,2 @@
+#2. Solicite ao usuário que informe a sua idade e 
+#depois exiba se é maior ou menor de idade.
