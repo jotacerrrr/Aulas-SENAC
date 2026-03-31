@@ -3,3 +3,14 @@
 #      b. Maior do que 11 e menor ou igual a 17 = adolescente.
 #      c. Maior do que 17 e menor ou igual a 59 = adulto
 #      d. Maior do que 59 = idoso.
+
+idade = int(input("Informe a sua idade: "))
+ 
+if idade <= 11:
+    print("Criança")
+elif idade <= 17:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Velho")

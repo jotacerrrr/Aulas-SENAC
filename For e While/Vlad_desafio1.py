@@ -5,7 +5,7 @@
 
 numeros = []
 
-for i in range(10):
+for i in range(3):
     nms = int(input(f"Digite {i+1}º número: "))
     numeros.append(nms)
     print(numeros)
