@@ -7,4 +7,6 @@ def imp_par(numero):
         return"impar"
 
 num = 10
+num2 = 11
 print(f"O número {num} é {imp_par(num)}. ")
+print(f"O número {num2} é {imp_par(num2)}. ")
