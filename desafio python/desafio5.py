@@ -3,7 +3,7 @@
 def contar_caracteres(texto):
     return len(texto)
 
-frase = "Olá, mundo!"
+frase = "cinco"
 quantidade = contar_caracteres(frase)
 
 print(f"A string contém {quantidade} caracteres.")
